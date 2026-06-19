@@ -41,7 +41,7 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
   padding: 18px 40px;
   position: sticky;
   top: 0;
@@ -54,7 +54,7 @@ nav {
 @media (prefers-color-scheme: dark) {
   nav { background: rgba(26,15,10,0.88); }
 }
-.nav-logo { font-size: 1.25rem; font-weight: 700; }
+.nav-logo { font-size: 1.25rem; font-weight: 700; margin-right: auto; }
 .nav-links { display: flex; gap: 24px; align-items: center; }
 .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; transition: color .2s; }
 .nav-links a:hover { color: var(--text); }
@@ -199,8 +199,10 @@ html[lang="zh-Hans"] body { font-family: "Noto Serif SC", "Source Han Serif SC",
 html[lang="zh-Hant"] body { font-family: "Noto Serif TC", "Source Han Serif TC", "Apple LiSung", serif; }
 html[lang="ko"] body { font-family: "Noto Serif KR", "Batang", serif; }
 
-@media (max-width: 480px) {
-  nav { padding: 14px 20px; }
-  .nav-links { gap: 12px; }
-  .lang-switcher a { padding: 3px 8px; font-size: 0.68rem; }
+@media (max-width: 640px) {
+  nav { padding: 12px 16px; flex-wrap: wrap; row-gap: 10px; }
+  .nav-logo { margin-right: 0; }
+  .nav-links { display: none; }
+  .lang-switcher { width: 100%; justify-content: center; gap: 6px; }
+  .lang-switcher a { padding: 5px 11px; font-size: 0.72rem; }
 }
