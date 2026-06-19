@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — 暦 Reki</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo gradient-text" href="index.html">暦 Reki</a>
+  <div style="display:flex;align-items:center;gap:20px;">
+    <div class="nav-links">
+      <a href="index.html">ホーム</a>
+    </div>
+    <div class="lang-switcher">
+      <a href="../ja/privacy.html" class="active">日本語</a>
+      <a href="../en/privacy.html">EN</a>
+      <a href="../zh-Hans/privacy.html">简体</a>
+      <a href="../zh-Hant/privacy.html">繁體</a>
+      <a href="../ko/privacy.html">한국어</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding:60px 24px 40px;">
+  <h1 style="font-size:2rem;">プライバシーポリシー</h1>
+  <p style="max-width:600px;">暦 Reki（以下「本アプリ」）における個人情報の取り扱いについて説明します。</p>
+</section>
+
+<article class="prose">
+
+  <h2>収集する情報</h2>
+  <p>本アプリは<strong>個人情報を収集しません。</strong>アカウント登録・ログインは不要であり、ユーザーの氏名・メールアドレス・位置情報などを取得することはありません。</p>
+
+  <h2>カメラ・マイクの使用</h2>
+  <p>本アプリはカメラおよびマイクへのアクセスを要求する場合があります。</p>
+  <ul>
+    <li><strong>カメラ：</strong>書類に含まれる和暦日付を検出・変換するために使用します（カメラOCR機能）。撮影した画像は端末内でのみ処理され、外部サーバーに送信されることはありません。</li>
+    <li><strong>マイク：</strong>音声入力機能のために使用します。音声認識はAppleの標準フレームワーク（Speech Framework）を利用し、端末上または必要に応じてAppleのサーバー上で処理されます。音声データは本アプリによって保存・送信されることはありません。</li>
+  </ul>
+
+  <h2>データの保存場所</h2>
+  <p>変換履歴・アプリ設定（テーマ・言語・表示形式など）はすべてユーザーの端末内にのみ保存されます（UserDefaults / SwiftData）。ウィジェットへのデータ共有も端末内の共有UserDefaultsを通じて行われ、外部には一切送信されません。</p>
+
+  <h2>サードパーティサービス</h2>
+  <p>本アプリは広告SDK・解析SDK・クラッシュレポートツールなどのサードパーティサービスを使用しません。</p>
+
+  <h2>外部サーバー通信</h2>
+  <p>祝日データはアプリのバンドルに含まれており、インターネット通信を必要としません。なお、将来のアップデートで最新の祝日データを取得するための通信が追加される可能性がありますが、その場合でも個人を識別する情報は送信しません。</p>
+
+  <h2>お子様のプライバシー</h2>
+  <p>本アプリは13歳未満の方を対象としておらず、意図的に子どもの個人情報を収集することはありません。</p>
+
+  <h2>ポリシーの変更</h2>
+  <p>本ポリシーは予告なく変更される場合があります。重要な変更がある場合は、アプリのアップデートを通じてお知らせします。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>プライバシーに関するご質問は <a href="mailto:natsukawa.tn@gmail.com">natsukawa.tn@gmail.com</a> までご連絡ください。</p>
+
+  <p class="update-date">最終更新日：2026年6月18日</p>
+
+</article>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html">ホーム</a>
+    <a href="mailto:natsukawa.tn@gmail.com">サポート</a>
+  </div>
+  <p>©<script>document.write(new Date().getFullYear())</script> NATSUKAWA.TN · 暦 Reki</p>
+</footer>
+
+</body>
+</html>
