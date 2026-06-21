@@ -193,11 +193,11 @@ footer a:hover { text-decoration: underline; }
 }
 
 /* Per-language formal serif fonts */
-html[lang="ja"] body { font-family: "Noto Serif JP", "Yu Mincho", "YuMincho", serif; }
-html[lang="en"] body { font-family: "EB Garamond", Georgia, "Times New Roman", serif; }
+html[lang="ja"] body { font-family: "Shippori Mincho", "Yu Mincho", "YuMincho", serif; }
+html[lang="en"] body { font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif; }
 html[lang="zh-Hans"] body { font-family: "Noto Serif SC", "Source Han Serif SC", "STSong", serif; }
 html[lang="zh-Hant"] body { font-family: "Noto Serif TC", "Source Han Serif TC", "Apple LiSung", serif; }
-html[lang="ko"] body { font-family: "Noto Serif KR", "Batang", serif; }
+html[lang="ko"] body { font-family: "Nanum Myeongjo", "Batang", serif; }
 
 @media (max-width: 640px) {
   nav { padding: 12px 16px; flex-wrap: wrap; row-gap: 10px; }
